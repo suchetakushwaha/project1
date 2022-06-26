@@ -1,0 +1,211 @@
+*{
+    margin :0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+}
+.side-bar1
+{
+  width: 68px;
+  background-color:  #FFFFFF;
+  border-right: 1px solid#E4E6EB;
+  position: fixed;
+  display: flex;
+}
+.sidebar{
+    padding-left: 14px;
+    padding-top: 10px;
+    cursor: pointer;
+
+}
+.img{
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yc/r/8C7IJNEsnom.png);
+    display: inline-block;
+    background-position: 3px -158px;
+    background-size: 190px 146px;
+    width: 39px;
+    height: 39px;
+    background-repeat: repeat;
+}
+
+.Home{
+    display: none;
+    position: absolute;
+    left:50px;
+    top: 0;
+}
+.img2{
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yH/r/S75JcFlIeYc.png);
+    background-position: 0 -18px;
+    background-size: 18px 54px;
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    display: inline-block;
+
+}
+.icon{
+    margin-top: 8px;
+    height: 40px;
+    width: 40px;
+    background-color: #e4e6eb;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.icon:hover .Home
+{
+    display: block;
+}
+
+.ic:hover
+{
+    filter:invert(39%) sepia(57%) saturate(200%) saturate(200%) saturate(200%) saturate(200%) saturate(200%) saturate(147.75%) hue-rotate(202deg) brightness(97%) contrast(96%);;
+    
+}
+
+.img3{
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/w2-OLTyY28g.png);
+    background-position: 0 -182px;
+    background-size: 26px 304px;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.img4{
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/w2-OLTyY28g.png);
+    background-position: 0 -52px;
+    background-size: 26px 304px;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.img5{
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/w2-OLTyY28g.png);
+    background-position: 0 -26px;
+    background-size: 26px 304px;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.img6{
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/w2-OLTyY28g.png);
+    background-position: 0 -104px;
+    background-size: 26px 304px;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+hr{
+    background-color: #CED0D4;
+    height: 1px;
+}
+.line{
+    padding: 16px 12px 0;
+}
+.grp-img{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    padding-top: 8px;
+}
+.group-img{
+    width: 36px;
+    height:36px;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.img7{
+        background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yc/r/8C7IJNEsnom.png);
+        background-position: -138px -14px;
+        background-size: 190px 146px;
+        width: 24px;
+        height: 24px;
+        background-repeat: no-repeat;
+        display: inline-block;
+    
+}
+.acc-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.account{
+    padding: 45px 0px;
+}
+.main{
+    background: aliceblue;
+    margin-left: 68px;
+}
+.acc-name{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    min-height: 50px;
+    position: relative;
+}
+p{
+    color: black;
+    font-size: 15px;
+    line-height: 1.3333;
+}
+
+.ac{
+    margin-right: 12px;
+    height: 36px;
+    width: 36px;
+}
+/* .menu-icon{
+    height: 36px;
+    width: 36px;
+} */
+.seprator{
+    border-bottom: 1px solid#CED0D4;
+    margin-top: 8px;
+}
+.navigation{
+    padding-top: 16px;
+    
+}
+.facebook-menu{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-height: 100%;
+    max-width: 300px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.edit-info{
+    display: none;
+    text-decoration: none;
+    color: dodgerblues;
+}
+.spam{
+    color: #65676B;
+    font-weight: 600;
+    line-height: 1.1765;
+    font-size: 1.0625rem;
+
+}
+.set-sort{
+    padding: 20px 0px 4px;
+}
+/* .rectangle
+{
+    background-color: rgba(0, 0, 0, 0.05);
+   
+} */
+.acc-name:hover{
+    background-color: rgba(0, 0, 0, 0.05);
+}
